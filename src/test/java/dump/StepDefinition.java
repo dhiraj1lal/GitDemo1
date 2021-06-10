@@ -48,6 +48,8 @@ public class StepDefinition {
 //		throw new PendingException();
 		System.out.println("This first code is developed in 'develop' branch");
 		System.out.println("This second code is developed in 'develop' branch");
+		System.out.println("This newone code is developed in 'develop' branch");
+		System.out.println("This newtwo code is developed in 'develop' branch");
 	}
 
 	@When("^Add to the cart$")
