@@ -33,7 +33,9 @@ public class StepDefinition {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		fk = new FlipkartHomePage(driver);
 		fk.IgnoreLogin();
-//        throw new PendingException();       
+//        throw new PendingException();   
+		System.out.println("This first code is originated from GitDemo1");
+		System.out.println("This second code is originated from GitDemo1");
 	}
 
 	@When("^Search (.+)$")
