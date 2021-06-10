@@ -36,6 +36,8 @@ public class StepDefinition {
 //        throw new PendingException();   
 		System.out.println("This first code is originated from GitDemo1");
 		System.out.println("This second code is originated from GitDemo1");
+		System.out.println("This first code is originated from GitStuff");
+		System.out.println("This second code is originated from GitStuff");
 	}
 
 	@When("^Search (.+)$")
