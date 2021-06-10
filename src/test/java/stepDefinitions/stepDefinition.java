@@ -36,6 +36,8 @@ public class stepDefinition {
 		fp.searchItem(item);
 		fp.subMit();	
 		fp.selectItem();
+		System.out.println("This third code is developed in 'develop' branch");
+		System.out.println("This fourth code is developed in 'develop' branch");
 	}
 
 	@When("^Add to the cart$")
